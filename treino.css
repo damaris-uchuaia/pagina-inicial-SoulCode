@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}*
+
+
+
+body{
+
+    background-color: rgb(245, 245, 245);
+    
+ /*   background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    z-index: 0;
+
+}
+
+/*#header{
+    background-color: #21a7d0;
+    height: 130px;
+    box-shadow: 1px 1px 2px rgb(206, 206, 206);
+    position: fixed;  
+}  */
+
+
+div#logodiv{
+    background-color: #21a7d0 ;
+    height: 200px;
+
+    
+    
+}
+
+img#logo{
+
+    width: 160px;
+    height: auto;
+    
+   
+    padding-top: 30px;
+    padding-left: 100px;
+
+    margin: 0;
+
+    
+    
+}
+
+ul#menu{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+    margin-left: 500px;
+    margin-top: -190px;
+
+   /* margin: 0;
+    background-color: #21a7d0;
+    height: 130px;
+    box-shadow: 1px 1px 2px rgb(206, 206, 206); */
+  
+    
+}
+
+ul#menu li{ /*esse mexe só no menu de cima*/
+
+    list-style: none;
+    position: relative;
+  
+    line-height: 70px;
+    height: 70px;
+    
+    margin: 20px; 
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+ul#menu li a{
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+ul#menu li a:hover{
+
+    color: rgb(246, 209, 0);
+    
+    /* -moz-box-shadow:0 3px 10px 0 #CCC; */
+    /* -webkit-box-shadow:0 3px 10px 0 #ccc;8 */
+   /* text-shadow:0px 0px 5px rgb(7, 6, 6); */
+
+}
+/*-------------DropDown------------*/
+
+#menu li  ul{
+    position:absolute;
+    top:75px;
+    left:0;
+    background-color:rgb(255, 255, 255);
+    display:none;
+    z-index: 27;
+    
+    }
+
+
+#menu li:hover ul, #menu li.over ul{display:block;}
+
+
+
+#menu li ul li{
+    
+    display:block;
+    width:250px;
+    height: 40px;
+
+    }
+
+
+   a#inscreva-se:hover{
+
+    background-color: rgb(255, 174, 0);
+    display: block;
+    height: 132px;
+    margin-top: -42px;
+    color: white;
+   }
+
+  
+ 
+
+/*-------------------------*/
+
+
+
+
+#container-img-principal{
+
+
+    margin-top: 200px;
+    z-index: 0;
+   
+}
+
+#img-principal{
+
+    width: 100%;
+    z-index: 0;
+    margin-top: -200px;
+}
+
+img#img-principal{
+
+    width: 100%;
+    z-index: 0;
+    margin-top: -200px;  /*----------mexi aqui---------------*/
+}
+
+#titulo-banner{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 0;
+
+    width: 1000px;
+    
+    
+}
+
+#container-banner{
+
+    position: relative;
+
+    text-align: center;
+    margin: 150px;
+    margin-top: -900px;
+    z-index: 0;
+}
+
+#container-terceira{
+
+    overflow: initial;
+    background-color: #e7f4f3;
+    width: 529px;
+    height: 600px;
+
+
+    margin-left: 110px;
+    margin-top: 580px;
+    padding: 60px 60px 35px;
+    border-radius: 10px;
+    z-index: 25;
+    position: absolute;
+    line-height: 28px;
+
+}
+
+
+a#botao-terceira{
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: #21a7d0;
+    
+    padding: 12px 40px;
+    border-radius: 70px;
+    
+    
+}
+
+#box-botao-terceira{
+
+    padding-top: 50px;
+ 
+}
+
+
+
+
+#h1-terceira{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #21a7d0;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#h2-terceira{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    font-weight: bold;
+    font-size: 34px;
+
+}
+
+#p-terceira{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    
+    font-size: 18px;
+
+}
+
+
+.h1-quarta{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+
+.p-quarta{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 20px;
+   
+  
+
+}
+
+.p-quarta{
+
+
+    border-left: 1px solid #21a7d0; /*usamos o tranform para o tamanho da barra
+     e padding para afasta-lo das letras*/
+    transform: 2s;
+    
+
+}
+
+
+.containers-blocos{
+
+    overflow: initial;
+    background-color: #e7f4f3;
+    width: 250px;
+    height: 100px;
+
+    position: relative;
+    overflow: initial;
+    margin: 20px; /*esse margin tem a função de separar os li's, deixando eles com
+    a forma de blocos individuais*/
+    list-style: none;
+    padding: 15px;
+    padding-top: 20px;
+
+    border-radius: 10px;
+    padding-left: 100px;
+    margin-left: 850px;
+    
+}
+
+#container-quarta{
+
+    margin-top: 640px;
+}
+
+.icones-quarta{
+
+    height: 45px;
+    width: auto;
+ 
+   
+    position: absolute;
+    
+}
+
+img.icones-quarta{
+
+    display: flex;
+    justify-content: left;
+    display: inline-block;
+    position: absolute;
+
+    margin-left:-70px;
+    padding-top: 20px;
+}
+
+
+#container-quinta{
+
+        width: 1100px;
+        margin: 0 auto;
+
+        margin-top: -120px;
+}
+
+#p-quinta{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    
+    font-size: 20px;
+    text-align: center;
+    line-height: 33px;
+    
+   
+
+}
